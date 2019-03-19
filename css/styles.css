@@ -1,4 +1,48 @@
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+}
+
+nav ul li {
+  flex-direction: row;
+  padding: 0 15px;
+}
 .hero-img {
   background-image: url('../img/hero.jpg');
-  margin: -10 px;
+  height: 700px;
+}
+
+.mid-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mid-content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-content-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mid-content-box ul li {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mid-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
